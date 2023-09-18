@@ -16,7 +16,7 @@
                 <a aria-current="page" href="index.html">Todes</a>
               </li>
               <li>
-                <a >Mujeres</a>
+                <button onclick="Mujer()">Mujeres</button>
               </li>
               <li>
                 <a >Hombres</a>
@@ -25,10 +25,20 @@
             </ul>
  </div>  
 </nav>   
+<h1>Elenco de Rick And Morty</h1>
+<h3>Página</h3>
+<div class="pagina">
+<select name="" id="pag">
+<script>
+  for(let i = 1; i <= 42;i++) {
+    document.write(`<option style="position:center;" value="${i}">${i}</option>`);
+  }
+ 
+</script> 
 
+</select></div>
 <div class="contenedor">
-<div class="lista">
-
+<div class="lista" id="lista">
 
 </div>
 
